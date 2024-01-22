@@ -1,0 +1,145 @@
+/*estilos globales*/
+* {
+    color: rgb(0, 0, 0);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+/*inicio de header*/
+.logo-almacen {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 12rem;
+    border-radius: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navegacion {
+    color: rgb(245, 159, 79);
+}
+
+.frase {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-style: 1.5rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/*fin del header*/
+
+/*inicio de main*/
+.parrafos {
+    text-align: center;
+}
+
+.último-párrafo {
+    font-style: italic;
+}
+
+.titulos {
+    color: rgb(245, 159, 79);
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.imagenes-productos {
+    width: 12rem;
+}
+
+.imagenes-productosvarios {
+    width: 10rem;
+}
+
+.imagenes-recetas {
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.titulo-anaranjado {
+    color: rgb(245, 160, 80);
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+
+}
+
+.texto-descriptivo {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+
+}
+
+.titulo-contacto {
+    color: rgb(245, 160, 80);
+    margin: 0;
+    padding: 0;
+}
+
+.ubicacion {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.elemento-padre {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+@media only screem and (min-width:500px) {
+    .elemento-padre {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+}
+
+@media only screem and (min-width:800px) {
+    justify-content: space-evenly;
+}
+
+/*fin de main*/
+
+/*inicio de footer*/
+.contacto {
+    width: 5rem;
+}
+
+.contacto:hover {
+    width: 4.5rem;
+}
+
+/*fin de footer*/
